@@ -1,0 +1,16 @@
+body,h1,h2,h3,h4,h5,h6,ul,li,input,p{
+margin:0px;
+padding:0px;
+list-style:none;
+font-family:"Arial","微软雅黑";
+font-size:12px;
+}
+a{color:#333;
+text-decoration:none;
+}
+img{
+   border:none;
+}
+a:hover{
+  color: red;
+}
