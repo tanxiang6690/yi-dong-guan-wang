@@ -49,32 +49,32 @@
     /*logoleft部分开始*/
 .logo{
     width:1200px;
-	  height:97px;
-	  margin:0 auto;
+    height:97px;
+    margin:0 auto;
 }
 .logoleft{
     width:600px;
-	  height:43px;
-	  float: left;
+    height:43px;
+    float: left;
     margin-top: 30px;  
 }
 .logo-left{
-		width:232px;
-	  height:43px;
-		float:left;
+    width:232px;
+    height:43px;
+    float:left;
 }
 .shanghai{
-		width:60px;
-	  height:43px;
+    width:60px;
+    height:43px;
     float:left;
-		text-align:center;
-		line-height:43px;
+    text-align:center;
+    line-height:43px;
 }
     /*logoleft部分结束*/
     /*logoright部分开始*/
 .logoright{
     width:530px;
-	  height:80px;
+    height:80px;
     float: left;
     margin-top: 17px;
 }
@@ -83,11 +83,11 @@ a:hover{
 }
 .logorightbaoyue{
     width:400px;
-	  height:38px;
-	  float:left;
+    height:38px;
+    float:left;
     font-size: 13px;
     color: #999999;
-	  border:1px solid gray;
+    border:1px solid gray;
 }
 .search{
     width:90px;
@@ -100,19 +100,19 @@ a:hover{
     height:40px;
     font-size:12px;
     line-height: 40px;
-		float:left;
+    float:left;
     margin-left: 30px;
 }
 .logorightwenzi li a:hover{
   text-decoration: underline;
 }
-	/*logoright部分结束*/
+  /*logoright部分结束*/
 /*logo部分结束*/ 
 /*主导航部分开始*/
 .mainbav{
-	width:1200px;
-	height:40px;
-	margin: 0 auto;
+  width:1200px;
+  height:40px;
+  margin: 0 auto;
   position: relative;
 }
 .shouYe{
@@ -179,9 +179,9 @@ a:hover{
 /*主导航部分结束*/
 /*banner部分开始*/
 .banner{
-	width: 1200px;
-	height: 350px;
-	margin:10px auto;
+  width: 1200px;
+  height: 350px;
+  margin:10px auto;
 }
 /*左导航开始*/
 .bannerLeft{
@@ -235,7 +235,9 @@ a:hover{
   line-height: 70px;
   text-align: center;
 }
+
 .btn .btnL{
+  display:block;
   width: 35px;
   height: 70px;
   float: left;
@@ -245,6 +247,7 @@ a:hover{
   cursor: pointer;
 }
 .btn .btnR{
+  display:block;
   width: 35px;
   height: 70px;
   float: right;
@@ -259,7 +262,7 @@ a:hover{
   left: 0;
   font-size: 0;
 }
-.circle{
+.bannerPage{
   height: 15px;
   width: 90px;
   margin-left: 5px;
@@ -270,7 +273,7 @@ a:hover{
   bottom: 10px;
   z-index: 10;
 }
-.circle li{ 
+.bannerPage li{ 
   height: 15px;
   width: 15px;
     background: #ccc;
